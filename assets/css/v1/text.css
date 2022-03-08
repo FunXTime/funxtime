@@ -1,0 +1,12 @@
+body {
+  font-family: Poppins;
+  color: var(--pageColor);
+}
+a[funxtime="page.link"] {
+  color: #0084ff;
+  text-decoration: none;
+  transition: color 1s;
+}
+a[funxtime="page.link"]:hover {
+  color: #004280;
+}

@@ -1,0 +1,8 @@
+# funxtime.ml/robots.txt
+# Tell Google not to crawl any URLs in this file
+# because they won't be useful in Google Search results.
+User-agent: googlebot
+Disallow: /xd/
+Disallow: /assets/
+Disallow: /favicons/
+Disallow: /scripts/

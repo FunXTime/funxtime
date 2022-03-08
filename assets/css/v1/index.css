@@ -1,0 +1,43 @@
+* {
+  outline: none;
+  scroll-behavior: smooth;
+  font-size: var(--defaultFontSize);
+}
+body {
+  background-color: var(--pageBackgroundColor);
+  color: var(--pageColor);
+}
+nav {
+  background-color: var(--navBackgroundColor);
+  color: var(--navColor);
+  position: fixed;
+  top: -2.5px;
+  left: -2.5px;
+  padding: var(--navPadding);
+  width: 100%;
+  height: var(--navHeight);
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-image: var(--navImage);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: var(--navImageSize);
+} 
+nav a {
+  color: var(--navColor);
+  text-align: center;
+  position: relative;
+  top: 15%;
+  margin-left: 10%;
+  text-decoration: none;
+  transition: color 1s;
+}
+nav a:hover {
+  color: var(--navColorDarker);
+}
+nav a[funxtime="nav.active"] {
+  color: var(--navActiveColor);
+}
+nav a[funxtime="nav.beforeImg"] {
+  margin-right:10%;
+}

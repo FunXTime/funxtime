@@ -1,0 +1,16 @@
+:root {
+  --defaultFontFamily: Poppins;
+  --defaultFontSize: 20px;
+  /*----------------------------*/
+  --pageBackgroundColor: black;
+  --pageColor: white;
+  /*----------------------------*/
+  --navBackgroundColor: #ffa000;
+  --navColor: white;
+  --navColorDarker: #f0e4d0;
+  --navActiveColor: #006094;
+  --navHeight: 5%;
+  --navImage: url('/assets/images/logo-transparent.png');
+  --navImageSize: 15%;
+  --navPadding: 2.5%;
+}
