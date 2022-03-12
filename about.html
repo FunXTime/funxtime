@@ -25,20 +25,22 @@
     <link href="/assets/css/v1/animations.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/v1/text.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/v1/buttons.css" rel="stylesheet" type="text/css" />
-    <script async src="https://arc.io/widget.min.js#YmM4fYe1"></script>
     <script src="/scripts/index.js"></script>
     <script src="/scripts/config.js"></script>
     <script src="/scripts/youtube.js"></script>
     <script src="/scripts/jquery.js"></script>
-    <script src="/scripts/announcements.js"></script>
     <link 
       href="https://fonts.googleapis.com/icon?family=Material+Icons" 
       rel="stylesheet">
+    <style>
+      div.aboutme { background-color: #ffa000; color: white; border-radius: 5px; padding: 5%; }
+      div.aboutme h1 { font-size: 25px; }
+    </style>
   </head>
   <body id="homepageBody" class="homepageBody" onload="loadConfig()">
     <nav id="homepageNav" class="homepageNav">
       <a 
-        title="You are on this page! Click to reload." 
+        title="Your home..." 
         href="/" 
         funxtime="nav.active">Home</a>
       <a 
@@ -50,7 +52,7 @@
         href="/youtube.html"
         funxtime="nav.afterImg">YouTube</a>
       <a 
-        title="All about me!" 
+        title="You are on this page! Click to reload." 
         href="/about.html"
         funxtime="nav.about">About</a>
     </nav>
@@ -58,17 +60,18 @@
     <br>
     <br>
     <br>
-    <iframe 
-      id="ytplayer-featured" 
-      type="text/html" 
-      width="100%" 
-      height="720" 
-      frameborder="0" 
-      style="left:32.5%;">
-      </iframe>
-
-      <div id="homepage_announcements">
-      </div>
+    
+    <!-- Page content begins here -->
+    
+    <div class="aboutme">
+    <h1>Fun X Time!</h1>
+    <p>Hey! I am the owner of this site you are at. <br>
+    I am presently living in New Delhi, India. <br>
+    I am an experienced Developer and Designer. <br>
+    I am quite familiar with HTML, CSS (King!), JS, XML, Python (a bit), Batch (a bit), Node.JS (a bit), and SQL (a bit)!</p>
+    </div>
+    
+    <!-- Page content ends here -->
     
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
       var widgetbot_server = '894943524800315422'; // ༺Fun X Time༻

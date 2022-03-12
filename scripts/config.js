@@ -11,4 +11,5 @@ var pageInitLogInterval = 2.5 // Seconds
 function loadConfig(param1, param2) {
   setInterval(consoleMeme, pageInitLogInterval * 1000);
   initYouTube();
+  initAnnouncements();
 }
