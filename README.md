@@ -1,6 +1,6 @@
 # Fun X Time!
 
-## "Me" - A name I call myself.
+## About Me
 🔭 I am a Developer
 
 🌱 Currently learning PHP and Python.
