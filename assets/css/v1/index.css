@@ -44,6 +44,10 @@ nav a[funxtime="nav.beforeImg"] {
 div#homepage-announcements {
   background-color: #271801;
   padding: 15%;
+  animation-name: blogPostBackgroundColorRotate;
+  animation-direction: alternate-reverse;
+  animation-duration: 6969ms;
+  animation-iteration-count: infinite;
   margin-top: 5%;
   width: 100%;
   height: 25%;
