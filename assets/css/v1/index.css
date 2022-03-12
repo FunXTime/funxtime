@@ -41,13 +41,9 @@ nav a[funxtime="nav.active"] {
 nav a[funxtime="nav.beforeImg"] {
   margin-right:10%;
 }
-#homepage-announcements {
+div#homepage-announcements {
   background-color: #271801;
   padding: 15%;
-  animation-name: blogPostBackgroundColorRotate;
-  animation-direction: alternate-reverse;
-  animation-duration: 6969ms;
-  animation-iteration-count: infinite;
   margin-top: 5%;
   width: 100%;
   height: 25%;
