@@ -6,9 +6,10 @@ function widgetBot(action, arg1, arg2) {
   } else if (action == "close" || action == 'close' || action == 3 || action == '3' || action == "3") {
     crate.toggle(false);
   } else if (action == "notify" || action == 'notify' || action == 4 || action == '4' || action == "4") {
-     crate.notify({ content: arg1, timeout: arg2 * 1000 });
+    crate.notify({ content: arg1, timeout: arg2 * 1000 });
   }
 }
+
 function consoleMeme() {
   console.log(pageInitLog, "color:orange;font-size:69px;");
   console.log("%c What are you doing in the console log? D:", "color:lightblue;font-size:31px;");
