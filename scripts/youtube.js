@@ -6,6 +6,6 @@
 // var ytplayer_featuredLink = "https://www.youtube.com/embed/" + ytplayer_featuredVideoID + "?autoplay=" + ytplayer_featuredAutoplay + "&origin=" + domain + "&color=" + ytplayer_featuredColor + "&disablekb=" + ytplayer_featuredKeyboardCtrls + "&hl=" + lang;
 // broken shit: var ytplayer_featured = document.getElementById("ytplayer-featured");
 
-function initYouTube() {
+// function initYouTube() {
   // document.getElementById("ytplayer-featured").setAttribute("src", ytplayer_featuredLink);
-}
+// }
