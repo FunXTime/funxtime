@@ -12,7 +12,7 @@
       a:hover { color: #694200; }
     </style>
   </head>
-  <body>
+  <body onload="startGame()">
   <div>
     <h1>404</h1>
     <p>Oh, lol. You went into a wrong direction. The URL you provided was incorrect! 
@@ -20,12 +20,16 @@
       Perhaps, you might want to get back to <a href="/">your home.</a>
       <br>
       <h2>Or somewhere else...</h1>
-      <a href="/youtube.html">YouTube Channel</a>
-      <a href="/discord.html">Discord Community</a>
-      <a href="/about.html">About</a>
+      <a href="/youtube.html">YouTube Channel</a><br>
+      <a href="/discord.html">Discord Community</a><br>
+      <a href="/about.html">About</a><br>
       <i>I think these are the only 'S E R I O U S' links you can visit</i>
     </p>
   </div>
+    <br>
+    <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+    <p>Use the ACCELERATE button to stay in the air</p>
+    <p>How long can you stay alive?</p>
     <script>
       var myGamePiece;
       var myObstacles = [];
