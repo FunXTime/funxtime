@@ -6,10 +6,21 @@ button {
   border-style: solid;
   transition: background-color 1s;
   padding: 10px;
+  color: white;
 }
 button:hover {
-  background-color: #c47a00;
+  background-color: #ae6d00;
 }
 button:active {
   background-color: #845300;
+}
+button[funxtime="button.color.blue"] {
+  background-color: #0096ff;
+  border-color: #005893;
+}
+button[funxtime="button.color.blue"]:hover {
+  background-color: #006bb3;
+}
+button[funxtime="button.color.blue"]:active {
+  background-color: #005893;
 }
