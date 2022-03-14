@@ -41,7 +41,7 @@ nav a[funxtime="nav.active"] {
 nav a[funxtime="nav.beforeImg"] {
   margin-right:10%;
 }
-div.homepage-announcements {
+div.box {
   background-color: #271801;
   padding: 15%;
   animation-name: blogPostBackgroundColorRotate;
