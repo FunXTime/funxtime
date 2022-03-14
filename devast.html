@@ -57,14 +57,58 @@
     <br>
     <br>
     <br>
-        <div class="box" style="background-color:#271801;padding:2.5%;animation-name:blogPostBackgroundColorRotate;animation-direction:alternate-reverse;animation-duration:6969ms;animation-iteration-count:infinite;margin-top:5%;margin-left:auto;margin-right:auto;width:75%;height:25%;border-radius:5px;z-index:100;">
-      <p style="font-size:31px;font-weight:900;">FRIENDS / VERIFIED</p>
+    <div class="box">
+      <h1>Fun X Time on Devast.io!</h1>
+    </div>
+    <div class="box" style="background-color:#271801;padding:2.5%;animation-name:blogPostBackgroundColorRotate;animation-direction:alternate-reverse;animation-duration:6969ms;animation-iteration-count:infinite;margin-top:5%;margin-left:auto;margin-right:auto;width:75%;height:25%;border-radius:5px;z-index:100;">
+      <p style="font-size:31px;font-weight:900;">Friends</p>
       <p>*_*~(VN)DIEA
       <br>
       Pro
+      <br>
+      zaki
+      <br>
+      Little Cute Cat
+      <br>
+      chim to
       </p>
-      <i>Want to be in this list? Meet me in Devast, or better: Use <button funxtime="button.color.blue" onclick="widgetBot('open')">Discord</button></i>
+      <i>Want to be in this list? Meet me in Devast.io, or better: Use <button funxtime="button.color.blue" onclick="widgetBot('open')">Discord</button></i>
     </div>
+
+    <div class="box">
+      <p style="font-size:25px;">Fun X Time will be online on Devast.io in...</p>
+      <p style="font-size:35px;" id="devastCountdown">Loading time...</p>
+    </div>
+
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("2022-03-16T21:00:00+05:30").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      // Output the result in an element with id="devastCountdown"
+      document.getElementById("devastCountdown").innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, and " + seconds + " seconds.";
+    
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("devastCountdown").innerHTML = "Right now!";
+      }
+    }, 1000);
+    </script>
     
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
       var widgetbot_server = '894943524800315422'; // ༺Fun X Time༻
