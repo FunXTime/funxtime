@@ -13,7 +13,7 @@ function widgetBot(action, arg1, arg2) {
 function consoleMeme() {
   console.log(pageInitLog, "color:orange;font-size:69px;");
   console.log("%c What are you doing in the console log? D:", "color:lightblue;font-size:31px;");
-  console.log("%c Cannot run the site? Use commands! Start with typing \"cnsl(\"help\")\"!", "color:yellow;font-size:22px;");
+  // console.log("%c Cannot run the site? Use commands! Start with typing \"cnsl(\"help\")\"!", "color:yellow;font-size:22px;");
 }
 
 function cnsl(command) {

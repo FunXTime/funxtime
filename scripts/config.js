@@ -6,7 +6,7 @@ var embedYouTubeDocTitle = "Watching Fun X Time";
 var videoEnded = false;
 var videoPlaying = false;
 var pageInitLog = "%c FUN X TIME!";
-var pageInitLogInterval = 2.5 // Seconds
+var pageInitLogInterval = 2.5; // Seconds
 
 function loadConfig(param1, param2) {
   setInterval(consoleMeme, pageInitLogInterval * 1000);
