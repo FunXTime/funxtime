@@ -89,12 +89,12 @@
     var countDownDate = new Date("2022-03-18T10:45:00+05:30").getTime();
     
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var daysList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     var year = countDownDate.getFullYear();
     var month = months[countDownDate.getMonth()];
     var date = countDownDate.getDate();
-    var day = days[countDownDate.getDay()];
+    var day = daysList[countDownDate.getDay()];
 
     // Ordinals
     var dateOrdinal = "th";
