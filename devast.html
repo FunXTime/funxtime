@@ -79,35 +79,43 @@
 
     <div class="box" style="background-color:#271801;padding:2.5%;animation-name:blogPostBackgroundColorRotate;animation-direction:alternate-reverse;animation-duration:6969ms;animation-iteration-count:infinite;margin-top:5%;margin-left:auto;margin-right:auto;width:75%;height:25%;border-radius:5px;z-index:100;">
       <p style="font-size:25px;">Fun X Time will be online on Devast.io in...</p>
-      <p style="font-size:35px;" id="devastCountdown">Loading time...</p>
-      <p style="font-size:20px;" id="devastTime"></p>
-      <p>Time is local.</p>
+      <p style="font-size:35px;" id="devastCountdown">Loading countdown...</p>
+      <p style="font-size:20px;" id="devastTime">Loading time...</p>
+      <p>All times are local.</p>
     </div>
 
     <script>    
     // Set the date we're counting down to
     var countDownDate = new Date("2022-03-18T10:45:00+05:30").getTime();
+    
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    document.getElementById("devastTime").innerHTML = countDownDate;
-      
+    var year = countDownDate.getFullYear();
+    var month = months[countDownDate.getMonth()];
+    var date = countDownDate.getDate();
+    var day = days[countDownDate.getDay()];
+
+    // Ordinals
+    var dateOrdinal = "th";
+    if (date == 1 || date == 21 || date == 31) { dateOrdinal = "st"; }
+    if (date == 2 || date == 22) { dateOrdinal = "nd"; }
+    if (date == 3 || date == 23) { dateOrdinal = "rd"; }
+
+    document.getElementById("devastTime").innerHTML = day + ", " + date + dateOrdinal + " " + month + ", " + year;
     // Update the count down every 1 second
     var x = setInterval(function() {
-
       // Get today's date and time
       var now = new Date().getTime();
-    
       // Find the distance between now and the count down date
       var distance = countDownDate - now;
-    
       // Time calculations for days, hours, minutes and seconds
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
       // Output the result in an element with id="devastCountdown"
       document.getElementById("devastCountdown").innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, and " + seconds + " seconds.";
-    
       // If the count down is over, write some text 
       if (distance < 0) {
         clearInterval(x);
