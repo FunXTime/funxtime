@@ -66,11 +66,13 @@
       <br>
       Pro
       <br>
-      zaki
+      BFG
+      <br>
+      Boi
       <br>
       Little Cute Cat
       <br>
-      chim to
+      𝖑𝖔𝖛𝖊 𝖗𝖘 𝕿𝕳
       </p>
       <i>Want to be in this list? Meet me in Devast.io, or better: Use <button funxtime="button.color.blue" onclick="widgetBot('open')">Discord</button></i>
     </div>
@@ -78,12 +80,16 @@
     <div class="box" style="background-color:#271801;padding:2.5%;animation-name:blogPostBackgroundColorRotate;animation-direction:alternate-reverse;animation-duration:6969ms;animation-iteration-count:infinite;margin-top:5%;margin-left:auto;margin-right:auto;width:75%;height:25%;border-radius:5px;z-index:100;">
       <p style="font-size:25px;">Fun X Time will be online on Devast.io in...</p>
       <p style="font-size:35px;" id="devastCountdown">Loading time...</p>
+      <p style="font-size:20px;" id="devastTime"></p>
+      <p>Time is local.</p>
     </div>
 
-    <script>
+    <script>    
     // Set the date we're counting down to
-    var countDownDate = new Date("2022-03-16T21:00:00+05:30").getTime();
+    var countDownDate = new Date("2022-03-18T10:45:00+05:30").getTime();
 
+    document.getElementById("devastTime").innerHTML = countDownDate;
+      
     // Update the count down every 1 second
     var x = setInterval(function() {
 
