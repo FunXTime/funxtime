@@ -5,7 +5,7 @@
 
 🌱 Currently learning PHP and Python.
 
-📫 Reach me out on Discord - https://funxtime.ml/discord!
+📫 Reach me out on Discord - https://funxtime.ml/discord !
 
 😄 Male - He/Him/His
 
