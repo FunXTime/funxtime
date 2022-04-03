@@ -6,3 +6,8 @@ Disallow: /xd/
 Disallow: /assets/
 Disallow: /favicons/
 Disallow: /scripts/
+Disallow: /cdn-cgi/
+Disallow: /scripts/
+Disallow: /404.html
+Disallow: /yandex_6c92aa8082aff94f.html
+Disallow: /secret.html
