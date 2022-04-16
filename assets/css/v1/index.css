@@ -28,7 +28,7 @@ nav a {
   text-align: center;
   position: relative;
   top: 15%;
-  margin-left: 10%;
+  margin-left: 5%;
   text-decoration: none;
   transition: color 1s;
 }
@@ -39,7 +39,10 @@ nav a[funxtime="nav.active"] {
   color: var(--navActiveColor);
 }
 nav a[funxtime="nav.beforeImg"] {
-  margin-right:10%;
+  margin-right: 5%;
+}
+nav a[funxtime="nav.afterImg"] {
+  margin-right: 0%;
 }
 div.box {
   background-color: #271801;
