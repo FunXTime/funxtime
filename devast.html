@@ -80,36 +80,32 @@
       <br>
       FBI vn
       <br>
-      A.A
-      <br>
-      xx
-      <br>
-      chim to
-      <br>
       i am a DEVIL
       <br>
       am not player
       <br>
       luka
       <br>
-      Zzzz / Your Father
+      Boring / Zzzz / Your Father <span style="color:yellowgreen">Comrade Marshal Soldier</span>
+      <br>
+      HOANGDZ
+      <br>
+      
       </p>
       
       <i>Want to be in this list? Meet me in Devast.io, or better: Use <button funxtime="button.color.blue" onclick="widgetBot('open')">Discord</button></i>
 
-      <p style="font-size:32px;font-weight:900;">Team-Banned Players/Enemies/Teams</p>
+      <p style="font-size:32px;font-weight:900;">Players Banned From Team / Enemies</p>
       <!--*_*~(VN)DIEA? <span style="color:#ff6969;">[Requires pending confirmation]</span>-->
-      <br>
-      dong phu
-      <br>
-      Eat
-      <br>
-      lllllllIIlIlIIlIIlIIlII
+      god noob <span style="color:tomato;">ADMIN HACKER</span>
+      mixi solo
+      chim dien
       
     </div>
 
     <div class="box" style="background-color:#271801;padding:2.5%;animation-name:blogPostBackgroundColorRotate;animation-direction:alternate-reverse;animation-duration:6969ms;animation-iteration-count:infinite;margin-top:5%;margin-left:auto;margin-right:auto;width:75%;height:25%;border-radius:5px;z-index:100;">
       <p style="font-size:25px;">Fun X Time will be online on Devast.io in...</p>
+      <p id="devastInfo"></p>
       <p style="font-size:35px;" id="devastCountdown">Loading countdown...</p>
       <!-- <p style="font-size:20px;" id="devastTime">Loading time...</p> -->
       <p>All times are local and realtime!</p>
@@ -126,7 +122,9 @@
     <script>    
     // Set the date we're counting down to
     var countDownDate = new Date("2022-06-13T11:00:00+05:30").getTime();
-    
+    theServer = "Asia";
+    theTeam = "FXT"
+    document.getElementById("devastInfo").innerHTML = "Server: " + theServer + "<br> Team: [" + theTeam + "]";
     /* const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var daysList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
@@ -164,10 +162,10 @@
     </script>
     
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-      var widgetbot_server = '894943524800315422'; // ༺Fun X Time༻
-      var widgetbot_channel = '895195399982301235'; // #🎄・general-chat
+      var widgetbot_server = '1041045055001080019'; // Fun X Community
+      var widgetbot_channel = '1041249676852219935'; // #general
 
-      new Crate({ server: '962727605835006072', channel: '969257561649999923' })
+      new Crate({ server: widgetbot_server, channel: widgetbot_channel })
 
       function widgetbotLoad() {
         crate.notify({ content: '**Hi!**', timeout: 2500 })
